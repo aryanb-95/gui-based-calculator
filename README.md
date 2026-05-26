@@ -1,5 +1,4 @@
 # GUI Based Calculator
-#### Video Demo:  
 #### Description:
 
 This project is a fully functional, desktop-based GUI Calculator built using Python's native **Tkinter** library and the **Pillow (PIL)** library. Designed as a user-friendly application, this calculator aims to bridge the gap between simple command-line tools and modern interactive user interfaces. It provides a clean, responsive layout optimized for essential arithmetic calculations, prioritizing visual clarity and smooth user interactions over bloated, unused scientific functions.
@@ -40,5 +39,3 @@ The project is structured efficiently to maximize code readability and minimize 
 Developing this calculator highlighted several important design choices. Managing widget states in Tkinter requires careful planning, especially when handling calculations that could result in errors, such as dividing by zero. The application handles these edge cases gracefully, catching system exceptions and displaying an explicit "Error" message to the user rather than allowing the script to crash.
 
 Furthermore, leveraging Tkinter's `.grid()` manager allowed for precise placement across multiple columns and rows. Defining span configurations for larger buttons, such as the equals and clear buttons, required strict coordinate plotting to maintain the calculator’s traditional proportional layout. By committing fully to a mouse-driven GUI and bypassing keyboard inputs, the code remains highly secure against arbitrary syntax injections or formatting conflicts.
-
-In summary, this CS50 final project showcases the practical application of object-oriented concepts, event-driven GUI programming, and strict error handling in Python, culminating in a reliable utility tool.
