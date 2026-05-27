@@ -1,8 +1,6 @@
 """
     Project Name: GUI based Calculator
-    Created by: Aryan R. Bhatt
-    Github: aryan-nxt
-    EdX: aryan_095
+    Created by: Aryan Bhatt
 """
 from tkinter import *
 from PIL import Image, ImageTk, ImageSequence
